@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 0 30px;
+}
+
+.header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.header__logo {
+  display: block;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list-link {
+  color: #8c8a8a;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.mean_img {
+  width: 100%;
+  height: 450px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.section_two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+
+}
+
+.block_one {
+  background: var(--grey, #f0f0f0);
+  width: 730px;
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  padding-right: 95px;
+  gap: 30px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.heading {
+  color: #4581b7;
+  font-size: 20px;
+  font-weight: 700;
+  padding: auto 25px 40px;
+  margin-bottom: 25px;
+}
+
+.text {
+  color: #808080;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  position: absolute;
+}
+
+.block_two {
+  background: var(--grey, #f0f0f0);
+  width: 350px;
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  padding-right: 24px;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.text2 {
+  color: #808080;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.text2 a {
+  display: block;
+}
+
+.last_block {
+  padding: 15px 45px;
+  background: var(--grey, #f0f0f0);
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text_block {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.footer_logo {
+    
+}
+
+
+.footer_text {
+  color: #808080;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer_number {
+  color: #808080;
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+.number {
+margin-top: 30px;
+}
+
+.mean_link {
+margin-top: 30px;
+}

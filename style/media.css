@@ -1,0 +1,30 @@
+@media (max-width:1199.99px) {}
+
+@media (max-width:991.99px) {
+    .block_one {
+        position: relative;
+    }
+
+    .text {
+        position: absolute;
+        padding: 0 2px;
+    }
+}
+
+@media (max-width:767.99px) {
+    .nav {
+        display: flex;
+        height: 1px;
+    }
+
+    a.nav__list-link {
+        height: 3px;
+    }
+    .nav__list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px   ;
+    }
+}
+
+@media (max-width:575.99px) {}
